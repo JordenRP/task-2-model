@@ -1,0 +1,6 @@
+version: '3'
+services:
+  genetic-algorithm:
+    build: .
+    container_name: genetic_algorithm_container
+    command: python genetic_algorithm.py
